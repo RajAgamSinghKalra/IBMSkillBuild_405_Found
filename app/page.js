@@ -113,8 +113,7 @@ export default function EmpowerYouthApp() {
       })
       
       if (response.ok) {
-        toast({
-          title: "Assessment completed!",
+        toast.success("Assessment completed!", {
           description: "Your personalized career recommendations are ready.",
         })
         setCurrentStep('dashboard')
