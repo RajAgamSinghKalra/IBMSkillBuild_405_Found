@@ -95,10 +95,8 @@ export default function EmpowerYouthApp() {
         })
       }
     } catch (error) {
-      toast({
-        title: "Registration failed", 
+      toast.error("Registration failed", {
         description: "Network error. Please try again",
-        variant: "destructive"
       })
     } finally {
       setLoading(false)
