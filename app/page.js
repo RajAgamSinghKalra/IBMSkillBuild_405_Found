@@ -90,10 +90,8 @@ export default function EmpowerYouthApp() {
         setCurrentStep('assessment')
       } else {
         const error = await response.json()
-        toast({
-          title: "Registration failed",
+        toast.error("Registration failed", {
           description: error.error || "Please try again",
-          variant: "destructive"
         })
       }
     } catch (error) {
