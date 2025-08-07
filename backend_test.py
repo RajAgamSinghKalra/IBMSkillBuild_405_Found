@@ -11,7 +11,7 @@ import time
 from datetime import datetime
 
 # Configuration
-BASE_URL = "https://81846a97-4a39-4364-9644-55d559f96cfa.preview.emergentagent.com/api"
+BASE_URL = "http://localhost:3000/api"
 TEST_USER_DATA = {
     "name": "Priya Sharma",
     "email": f"priya.sharma.{uuid.uuid4().hex[:8]}@example.com",
