@@ -84,8 +84,7 @@ export default function EmpowerYouthApp() {
       if (response.ok) {
         const userData = await response.json()
         setUser(userData.user)
-        toast({
-          title: "Welcome to EmpowerYouth!",
+        toast.success("Welcome to EmpowerYouth!", {
           description: "Your account has been created successfully.",
         })
         setCurrentStep('assessment')
