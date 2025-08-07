@@ -1,5 +1,5 @@
 import './globals.css'
-import { Toaster } from "@/components/ui/toaster"
+import { Toaster } from "sonner"
 
 export const metadata = {
   title: 'EmpowerYouth - Your AI Career Coach',
