@@ -120,10 +120,8 @@ export default function EmpowerYouthApp() {
         await loadDashboard()
       }
     } catch (error) {
-      toast({
-        title: "Assessment failed",
+      toast.error("Assessment failed", {
         description: "Please try again",
-        variant: "destructive"
       })
     } finally {
       setLoading(false)
