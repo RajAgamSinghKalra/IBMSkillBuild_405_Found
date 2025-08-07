@@ -275,15 +275,12 @@ metadata:
 
 test_plan:
   current_focus:
-    - "User Authentication System"
-    - "Career Assessment API"
-    - "Personalized Dashboard API"
     - "Landing Page & Welcome Flow"
     - "User Registration & Onboarding"
     - "Career Assessment Flow"
     - "Personalized Dashboard"
   stuck_tasks: []
-  test_all: true
+  test_all: false
   test_priority: "high_first"
 
 agent_communication:
